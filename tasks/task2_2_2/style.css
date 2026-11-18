@@ -1,0 +1,27 @@
+p {
+    font-weight: bold;
+}
+
+p + p {
+    font-size: small;
+    font-weight: normal;
+    color: purple;
+}
+
+.class {
+    color: blue;
+    font-weight: bold;
+}
+
+#id {
+    color: red;
+}
+
+.class:hover {
+    font-size: 5em;
+}
+
+ol li {
+    color: green;
+    font-size: small;
+}

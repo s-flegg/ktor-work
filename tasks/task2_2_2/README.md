@@ -6,12 +6,12 @@
 2. Create a file named `style.css`, containing some rules that will style the
    element of the HTML document in a manner of your choosing.
 
-3. Edit `document.html` and add a `link` element to the `head` of the
+3. Edit `Task 2.2.2.html` and add a `link` element to the `head` of the
    document, referencing your stylesheet:
 
    ```html
    <link rel="stylesheet" href="style.css">
    ```
 
-4. Open `document.html` in a browser to check that the document is styled
+4. Open `Task 2.2.2.html` in a browser to check that the document is styled
    as you expect.
