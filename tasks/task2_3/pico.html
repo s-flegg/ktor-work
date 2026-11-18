@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Task 2.3</title>
+</head>
+<body>
+<main class="container-fluid">
+    <h1>Heading 1</h1>
+    <p>
+        This is paragtaph one. It has some words in it and even a <a href="README.md" class="secondary">secondary hyperlink.</a>
+    </p>
+    <p>
+        A sequential paragraph.
+    </p>
+    <h2>Heading 2</h2>
+
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <div class="grid">
+        <div>
+        <p>
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" name="name">
+        </p>
+        <p>
+            <label for="email">Enter your email: </label>
+            <input type="email" id="email" name="email">
+        </p>
+        </div>
+        <div>
+        <p>
+            <label for="dob">Select your date of birth: </label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <label for="colour">Please choose your favourite colour: </label>
+            <input type="color" id="colour" name="colour">
+        </p>
+        </div>
+        </div>
+        <p>
+            Please select one from below
+        <ul>
+            <li>
+                <label for="student">Student </label>
+                <input type="radio" id="student" name="studentOrStaff" value="student">
+            </li>
+            <li>
+                <label for="staffQuestion">Staff </label>
+                <input type="radio" id="staffQuestion" name="studentOrStaff" value="staff">
+            </li>
+        </ul>
+        </p>
+        <p>
+            <input type="submit" value="Contrast Submit" class="contrast">
+        </p>
+
+    </form>
+
+</main>
+</body>
+</html>
