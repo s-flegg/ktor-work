@@ -21,4 +21,12 @@ class ApplicationTest : FreeSpec({
     }
 
     // Add more tests here
+    "Path /hello/ yields 404 Error" {
+        testApplication {
+            configure()
+            val response = client.get("/home/")
+            response.status shouldBe HttpStatusCode.NotFound
+            response.headers["content-Type"]?.shouldContain("application/json")
+        }
+    }
 })
